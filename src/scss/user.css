@@ -1,0 +1,63 @@
+.users-list {
+  background: url(./img/ricepaper_v3_@2X.png) no-repeat center center;
+  background-size: cover;
+  padding-bottom: 20px;
+  min-height: 100vh; }
+  .users-list .jumbotron {
+    font-size: 48px;
+    color: blue;
+    background: red;
+    text-align: center;
+    background: transparent; }
+
+.users-item-col {
+  padding: 10px; }
+
+.users-item {
+  border: 1px solid #999;
+  border-radius: 3px;
+  text-align: center;
+  margin: 0 auto; }
+  .users-item a {
+    display: block;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-decoration: none; }
+    .users-item a .users-item-bcg {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: transparent;
+      opacity: 0;
+      transition: all .4s ease-out; }
+    .users-item a .users-item-del {
+      visibility: hidden;
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+      padding: 7px 10px;
+      border: 1px solid transparent;
+      border-radius: 3px;
+      background: transparent; }
+    .users-item a:hover {
+      text-decoration: none; }
+      .users-item a:hover .users-item-bcg {
+        opacity: .7;
+        background: #7fbfbb; }
+      .users-item a:hover .users-item-del {
+        visibility: visible;
+        background: white; }
+    .users-item a:focus {
+      text-decoration: none; }
+
+.disable-links > a {
+  pointer-events: none; }
+
+.user-details {
+  background: url(./img/ricepaper_v3_@2X.png) no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  text-align: center; }

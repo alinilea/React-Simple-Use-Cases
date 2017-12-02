@@ -1,0 +1,146 @@
+.home {
+  background: url(./img/assignment2.jpg) no-repeat center center;
+  background-size: cover; }
+  .home .jumbotron {
+    font-size: 48px;
+    color: white;
+    background: transparent;
+    text-align: center; }
+
+.button {
+  font-size: 16px;
+  color: #24375f;
+  font-weight: 600;
+  position: absolute;
+  bottom: 30px;
+  right: 30px; }
+
+.users-list {
+  background: url(./img/ricepaper_v3_@2X.png) no-repeat center center;
+  background-size: cover;
+  padding-bottom: 20px;
+  min-height: 100vh; }
+  .users-list .jumbotron {
+    font-size: 48px;
+    color: blue;
+    background: red;
+    text-align: center;
+    background: transparent; }
+
+.users-item-col {
+  padding: 10px; }
+
+.users-item {
+  border: 1px solid #999;
+  border-radius: 3px;
+  text-align: center;
+  margin: 0 auto; }
+  .users-item a {
+    display: block;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-decoration: none; }
+    .users-item a .users-item-bcg {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: transparent;
+      opacity: 0;
+      transition: all .4s ease-out; }
+    .users-item a .users-item-del {
+      visibility: hidden;
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+      padding: 7px 10px;
+      border: 1px solid transparent;
+      border-radius: 3px;
+      background: transparent; }
+    .users-item a:hover {
+      text-decoration: none; }
+      .users-item a:hover .users-item-bcg {
+        opacity: .7;
+        background: #7fbfbb; }
+      .users-item a:hover .users-item-del {
+        visibility: visible;
+        background: white; }
+    .users-item a:focus {
+      text-decoration: none; }
+
+.disable-links > a {
+  pointer-events: none; }
+
+.user-details {
+  background: url(./img/ricepaper_v3_@2X.png) no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  text-align: center; }
+
+nav.navbar {
+  border: none;
+  margin-bottom: 0; }
+
+nav.navbar-default {
+  border-radius: 0;
+  background-image: none;
+  background-color: #4ca8a2; }
+  nav.navbar-default .container {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+  nav.navbar-default .navbar-brand {
+    color: white; }
+  nav.navbar-default .navbar-nav > li > a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px; }
+    nav.navbar-default .navbar-nav > li > a:hover, nav.navbar-default .navbar-nav > li > a:focus, nav.navbar-default .navbar-nav > li > a:active {
+      color: #222;
+      background-color: #4ca8a2;
+      border-radius: 4px; }
+
+header {
+  padding-top: 27px;
+  padding-bottom: 27px;
+  background-color: #4ca8a2; }
+
+.navigation {
+  padding-left: 0;
+  margin-bottom: 0; }
+  .navigation > li {
+    display: inline-block;
+    list-style-type: none; }
+    .navigation > li > a {
+      padding: 30px 35px;
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      transition: all .2s ease-out; }
+      .navigation > li > a:hover, .navigation > li > a:focus, .navigation > li > a:active {
+        text-decoration: none;
+        color: white;
+        background-color: #47494f;
+        border-radius: 4px; }
+
+footer {
+  background-color: #47494f;
+  font-size: 20px;
+  padding: 70px 0; }
+  footer .navigation > li {
+    margin-right: 20px; }
+    footer .navigation > li > a {
+      padding: 0; }
+
+.not-found {
+  height: calc(100vh - 247px);
+  min-height: 253px;
+  text-align: center; }
+  .not-found h1 {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
+    .not-found h1 div {
+      margin: 30px 0 0; }

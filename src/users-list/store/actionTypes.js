@@ -1,0 +1,1 @@
+export const SET_USERS_LIST = 'user/SET_USERS_LIST';

@@ -1,0 +1,16 @@
+.home {
+  background: url(./img/assignment2.jpg) no-repeat center center;
+  background-size: cover; }
+  .home .jumbotron {
+    font-size: 48px;
+    color: white;
+    background: transparent;
+    text-align: center; }
+
+.button {
+  font-size: 16px;
+  color: #24375f;
+  font-weight: 600;
+  position: absolute;
+  bottom: 30px;
+  right: 30px; }
